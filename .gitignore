@@ -1,0 +1,19 @@
+# Ignore React junk
+node_modules/
+build/
+.env
+
+# Ignore Python junk
+venv/
+__pycache__/
+*.pyc
+
+# Ignore Database & Media (Don't upload user data!)
+*.db
+*.sqlite3
+server/audio_files/
+server/database.db
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
